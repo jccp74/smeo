@@ -1,0 +1,115 @@
+/*
+  Este projeto destina-se ao layout do Sistema Semese de Segurança e Medicina do Trabalho Online,
+  portanto sua cópia não está autorizada em nenhuma instância.
+ */
+/* 
+    Criado em  : 06/09/2016, 11:05:57
+    Autor      : jccp74 - Claudio
+    Observações: este documento está organizado por ordem alfabética.
+*/
+
+/* INICIALIZAÇÃO - elementos */
+body, header, nav, p {
+    margin: 0;
+    font: verdana;
+}
+
+/* INDEX.PHP - classes */
+.logo {
+    
+}
+
+/* INDEX.PHP */
+footer {
+    font-size: 11px;
+    position: absolute;
+    height: 12px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
+    background-color: #aed0ea;
+}
+
+footer p {
+    text-align: center;
+}
+
+header {
+    min-width: 420px;
+    height: 74px;
+    right: 0px;
+    background-color: #478427;
+}
+
+header img {
+    padding: 4px 16px 4px 8px;
+    height: 64px; 
+    float: left;
+}
+
+header nav {
+    height: 30px;
+    right: 0px;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    color: #fff;
+}
+
+header p {
+    color: #fff;
+    padding-right: 16px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+header p.boasvindas {
+    font-size: .8em;
+    text-align: right;
+    float: right;
+    padding-top: 8px;
+}
+
+header p.titulo {
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+header p.titulo span {
+    font-size: 1.3em;
+}
+
+nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding-top: 6px;
+    padding-right: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div .conteudo {
+    position: absolute;
+    top: 74px;
+    right: 0px;
+    bottom: 20px;
+    left: 0px;
+}
+
